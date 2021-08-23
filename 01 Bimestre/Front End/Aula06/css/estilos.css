@@ -1,9 +1,0 @@
-body { font-family: Arial, Helvetica, sans-serif}
-
-/* * {color:black;} */
-
-h1 ~ p {color:red;}
-
-.titulos {color: green}
-
-cite {color: white; background-color: black;}
