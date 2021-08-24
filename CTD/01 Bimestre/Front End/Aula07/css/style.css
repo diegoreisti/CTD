@@ -1,0 +1,17 @@
+/* cor de fundo da tag body em modo RGB valores (223, 215, 185) */
+/* cor do texto da tag body em modo RGB valores (51, 51, 51) */
+body {background-color: #dfd7b9; color: #333333;}
+
+/* cor do texto da tag h1 em modo hexadecimal, valor 0d1b97 */
+h1 {color: #0d1b97;}
+
+/* cor de fundo da classe job-title em modo hexadecimal, valor 1726ad */
+/* cor do texto da classe job-title em modo hexadecimal, valor 898dbe */
+.job-title {background-color: #1726ad; color: #898dbe;}
+
+/* cor do texto do identificador high em modo RGB, valores (13, 27, 151) */
+#high {color: #0d1b97;}
+
+/* cor de fundo da tag ul em modo hexadecimal, valor 333333 */
+/* cor do texto da tag ul em modo RGB, valores (223, 215, 185) */
+ul {background-color: #333333; color: #dfd7b9;}
