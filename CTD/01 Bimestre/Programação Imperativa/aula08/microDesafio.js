@@ -1,19 +1,28 @@
-// Micro desafio
+/* Micro desafio
 
-// Com este exercício, vamos construir um if simples.
+Com este exercício, vamos construir um if simples.
 
-// Declare uma variável com o nome status. Atribua a ela um valor booleano: (true ou false).
+Declare uma variável com o nome status. Atribua a ela um valor booleano: (true ou false).
 
-// Em seguida, faça um if que avalie o valor contido nesta variável. Se o valor armazenado for true, imprima a seguinte mensagem no console: 
-    //O valor é true - verdadeiro. Caso contrário, imprima a mensagem: O valor é false - falso.
+Em seguida, faça um if que avalie o valor contido nesta variável. Se o valor armazenado for true, imprima a seguinte mensagem no console: 
+    O valor é true - verdadeiro. Caso contrário, imprima a mensagem: O valor é false - falso. */
 
-    let status = true
-
-    if (status == true){
-        console.log("Verdadeiro")
-    } else {
-        console.log("falso")
+    function escreve(x){
+        return console.log(x)
     }
+
+     let status = true
+
+    status ? escreve("Verdadeiro") : escreve("Falso")
+
+    /*     
+    if (status == true){
+        escreve("Verdadeiro")
+    } else {
+        escreve("falso")
+    } */
+
+
 
     /*Crie uma variável chamada linguagem, que terá uma string atribuída a ela. 
     Em seguida, construa uma condicional if/else para que, se a variável estiver armazenando o valor "javascript", 
@@ -23,9 +32,9 @@
     let linguagem = "JavaScript"
 
     if (linguagem.toLowerCase() === "javascript"){
-        console.log("Estou aprendendo")
+        escreve("Estou aprendendo")
     } else {
-        console.log("Aprenderei mais tarde")
+        cescreve("Aprenderei mais tarde")
     }
 
  /*    Em um parque de diversões nos pedem um programa para verificar se os
@@ -66,4 +75,4 @@ function podeSubir(altura, acompanhada){
     
 }
 
-console.log(podeSubir(1.35,true))
+escreve(podeSubir(1.30,false))
