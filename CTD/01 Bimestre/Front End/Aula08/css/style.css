@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {background-color: skyblue;}
+
+.titulo-principal {
+    color: #b70b3f; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.review-score {
+    background-color: #f1f52a;
+    padding: 12px;
+}
+
+h2 {
+    color: #b70b3f;
+}
+
+
+.media-picture {
+    height: 600px;
+    background-image: url('https://www.planocritico.com/wp-content/uploads/2013/04/meu-amigo-totoro-plano-cr%C3%ADtico.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(0, 216, 72);
+    background-color: #f1f52a;
+}
