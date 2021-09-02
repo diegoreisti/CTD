@@ -1,0 +1,42 @@
+* {
+    margin: 0;        
+}
+
+body {
+    color: gray;
+    width: 4000px;
+    height: 4000px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 50px solid;
+}
+
+.paragrafo {
+    color: white;
+    font-size: 15px;
+    text-align: center;        
+   }
+
+.box-1 {
+    background-color: black;
+    position: relative;
+    
+}
+
+.box-2 {
+    background-color: rgb(196, 92, 92);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.box-3 {
+    background-color: rgb(7, 8, 80);
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 200px / 2);
+}

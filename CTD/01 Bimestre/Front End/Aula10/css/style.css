@@ -1,11 +1,44 @@
-* {
-    box-sizing: border-box;
-  }
+  /* Escolha uma imagem de banner.
+  Essa imagem deve conter ao menos 1280x720 pixels.
+  Coloque essa imagem como background-image
+  Dê uma largura e altura para a mesma.
+  Adicione um título para o seu banner h1
+  Adicione um subtítulo para o banner também h2
+  Crie um botão a partir da tag <a href=”#”><button>Meu botão</button></a>.
+  Dê uma altura e uma largura usando apenas o box-model.
+  Dê uma borda arredondada.
+  Escolha uma cor bem bacana.
+  Centralize todos os itens com text-align: center; para que os itens do banner
+   fiquem centralizados.
+  Coloque um padding vertical no banner para centralizar os itens verticalmente.  */
 
-  .ex1 {
-      background-color: rgb(193, 247, 0);
-      width: 120px; 
-      height: 130px;
-      padding: 12px;
+ body {
+     padding: 0;
+     margin: 0;
+ }
 
-  }
+  .box {
+      background-image: url("https://www.baixarpapeldeparede.com/web/wallpapers/wallpaper-4k-full-hd-049/1280x720.jpg");
+      background-repeat: no-repeat;
+      width: 100%; 
+      height: 600px;
+      padding: 12px 24;
+      /* border-radius: 30px; */
+      /* text-align: center; */
+      margin: 0;
+      background-position: center;
+      background-size: cover;
+      }
+
+     .botao {
+         position: absolute;
+         padding: 10px 40px;
+         border-radius: 7px;
+         color: black;
+         font-family: Arial, Helvetica, sans-serif;
+     } 
+
+     #h1 {
+         align-self: center;
+     } 
+     
