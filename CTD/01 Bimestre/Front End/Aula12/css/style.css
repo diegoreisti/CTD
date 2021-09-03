@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.main-menu {
+    background-color: yellow;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-menu a {
+    color: black;
+    text-decoration: unset;
+    bottom: 0;
+}
+
+.button {
+    color: white;
+    background-color: blue;
+    height: 30px;
+    border-width: 0;
+    padding: 5px;
+}
+
+.rodape {
+    z-index: 0;
+}
+
+.fale-conosco {
+    size: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
