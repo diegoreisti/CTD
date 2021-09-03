@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@
     z-index: 50;
     padding: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-menu a {
@@ -20,16 +23,28 @@
     bottom: 0;
 }
 
+.banner {
+    width: 1600px;
+    height: 400px; 
+}
+
 .button {
     color: white;
     background-color: blue;
     height: 30px;
     border-width: 0;
     padding: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .rodape {
     z-index: 0;
+}
+
+.rodape img {
+    
+    width: 1600px;
+    height: 500px; 
 }
 
 .fale-conosco {
