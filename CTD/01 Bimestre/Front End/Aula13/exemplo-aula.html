@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  
+    <form>
+        
+        <h1>Formulário de Cadastro</h1>
+
+        <h2>Dados pessoais</h2>
+
+        <div>
+            <label for="fullName">Nome completo</label> <!-- Adiciona um "rótulo" ao campo do for -->
+            <input required placeholder="Não utilize abreviações" type="text" name="fullName" id="fullName"> <!-- entrada do tipo texto, id = name -->
+        </div>
+<br>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>    
+<br>
+        <div>
+            <label for="birthDate">Data Nascimento</label>
+            <input type="date" name="birthDate" id="birthDate">
+        </div>    
+<br>
+        <div>
+            <label for="password">Senha</label>
+            <input required minlength="8" type="password" name="password" id="password">
+        </div>    
+
+        <h2>Localização</h2>
+
+        <div>
+            <label for="city">Cidade</label>
+            <select name="city" id="city">
+                <option value="SSA">Salvador</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>   
+        </div>
+<br>     
+        <div>
+            <label for="observation">Observação</label> <br>
+            <textarea placeholder="Insira detalhes da entrega, local, ponto de referência, etc;" 
+                      name="observation" 
+                      id="observation" 
+                      cols="50" 
+                      rows="10"></textarea>
+        </div>
+<br>        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+    
+    
+</body>
+</html>
