@@ -21,3 +21,4 @@ function maskify(cc) {
 
 console.log(maskify(nome))
 
+'BADABIBADABA'
