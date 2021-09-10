@@ -1,0 +1,27 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+ body {
+     background-color: pink;
+ }
+
+ h1, 
+ legend,
+ label {
+    font-family: 'Emilys Candy', cursive;
+    color: rgb(230, 10, 230);
+ }
+
+ .produto {
+     width: 130px;
+     height: 100px;
+ }
+
+ .inputNumber {
+     width: 30px;
+ }
+
+ div {
+     align-items: stretch;
+ }
