@@ -23,38 +23,3 @@ let ListaContasJSON = JSON.stringify(ListaContas)
 
 console.log(ListaContasJSON) 
 
-/* function banco(lstCnts){
-    
-}
- */
-
-/* 
-
- function Account(accountNumer, accountType, accountBalance, name, document) {
-    this.accountNumer = accountNumer,
-    this.accountType = accountType,
-    this.accountBalance = accountBalance
-    // Aqui um exemplo diferente
-    this.accountHolder = {
-        name: name,
-        document: document
-    }
-} 
-
-
-
-let newAccount = new Account (
-    "000001",
-    "01",
-    "1500",
-    "Diego Reis", 
-    "00000000000"
-)
-
-console.log(newAccount)
-
-let contaJson = JSON.stringify(newAccount)
-
-console.log(contaJson) 
-
-*/
