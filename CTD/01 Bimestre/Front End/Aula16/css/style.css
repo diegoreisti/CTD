@@ -1,0 +1,44 @@
+/* Vocês devem inserir em um HTML simples, com elementos que vocês já conhecem (ex: h1, div, p, img, input ou qualquer outro), 
+a atribuição desses pseudo-classes/pseudo-elementos obrigatórios para o exercício de hoje: */
+
+/* :hover */
+
+button:hover {
+    font-style: italic;
+    color: red;
+}
+
+/* ::first-letter */
+p::first-letter {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+/* :focus */
+
+input:focus {
+    transform: scale(1,2);
+}
+
+/* :checked (utilizado em input tipo checkbox) */
+label input:checked + span{
+    color: rebeccapurple;    
+}
+
+/* :nth-child() */
+ol li:nth-child(2n){
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: indigo;
+}
+
+
+/* :disabled */
+input:disabled {
+    background-color: black;
+} 
+
+/* :enabled */
+input:enabled {
+    background-color: green
