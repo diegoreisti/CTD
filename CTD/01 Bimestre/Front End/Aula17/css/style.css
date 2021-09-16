@@ -1,0 +1,36 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* da um espacinho entre os elementos */    
+    /* flex-direction: row; */  /* o padrão já é esse */
+    width: 100%;
+    height: 100vh; /* vh é a altura da área inteira, da tela do usuário */
+    justify-content: center; /* vertical */
+    align-items: center; /* orizontal */
+}
+
+main section {
+    width: 200px;
+    height: 200px;
+    /* margin: 0 12px; */
+}
+
+main section:nth-child(1){
+    background-color: violet;
+    width: fit-content;
+}
+
+main section:nth-child(2){
+    background-color: tomato;
+    width: 400px;
+}
+
+main section:nth-child(3){
+    background-color: teal;
+}
