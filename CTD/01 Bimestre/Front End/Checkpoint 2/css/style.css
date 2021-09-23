@@ -1,0 +1,81 @@
+/* 2. Escolha ao menos duas fontes para serem utilizadas no seu site. Use o
+Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+/*     1. Selecione uma imagem de background da sua cidade e coloque como
+imagem de fundo do seu body. */
+    background-image: url(https://www.positivapsicologia.com.br/wp-content/uploads/2019/08/Salvador-Bahia.jpg);
+    background-size: cover;
+    border-top: 0;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    /* height: 150px;  */
+    /* border: 50px solid; */
+    padding: 10px;  
+    color: rgb(80, 121, 255);
+    background-color: white;
+    /* position: fixed; */
+    text-align: center;
+    border-top: 0;
+}
+
+/* .main-title h1 {
+    color: rgb(80, 121, 255);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 99;
+} */
+
+h2, p {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.description {
+    background-color: white;
+}
+
+/* 5. Insira um video do youtube que fala da sua cidade. 
+Pode ser algum festival ou comemoração. 
+Dê uma altura e largura de 1280x720 ao seu vídeo. */
+
+.video {
+    width: 1280px; 
+    height: 720px;
+}
+
+
+.social-network {
+    background-color: white;  
+    position: static;  
+    text-align: center;
+    /* width: 200px; */
+    /* height: 200px; */
+}
+
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 32px;
+        color: black;
+        padding: 0;
+        text-align: left;
+        border-top: 0;
+        border: 0;
+    }
+
+    .video {
+        width: 100%;
+        height: 150%;
+        display: block;
+    }
+    
+}
