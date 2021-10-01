@@ -1,71 +1,283 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salvador - BA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="shortcut icon" href="imgs/icon.ico" type="image/x-icon">
+    <title> Salvador - BA </title>
     <link rel="stylesheet" href="css/style.css">
+
+
 </head>
+
 <body>
-           
-<!-- 3. Faça um Header bem bacana com uma cor da sua escolha. Esse header
-precisa ter de 10 a 20 píxels de padding vertical. Dentro dele estará um título
-com o nome da sua cidade! -->
+
     <header>
-    <h1 class="main-title">SALVADOR</h1>
-    </header>        
-    
-    <!-- 4. No seu main, coloque um pequeno parágrafo falando da sua cidade.
-        Destaque em negrito os pontos mais importantes. -->
-    <div>
-    <p><strong>Salvador</strong> é um município brasileiro e <strong>capital do estado da Bahia.></strong> Situada na Zona da Mata da Região Nordeste do Brasil, Salvador é notável em todo o país pela sua gastronomia, música e arquitetura, reconhecidas também internacionalmente. A influência africana em muitos aspectos culturais da cidade a torna o centro da cultura afro-brasileira. <strong>Primeira capital da América Portuguesa</strong>, que corresponde ao atual Brasil, a cidade é uma das mais antigas do continente americano e <strong>uma das primeiras cidades planejadas no mundo</strong>, ainda no período do Renascimento. Sua fundação em 1549 por Tomé de Sousa ocorreu por conta da implantação do Governo-Geral do Brasil pelo Império Português.</p>
-    </div>    
 
-    <div>
-        <iframe class="video" src="https://www.youtube.com/embed/32G_kpbet6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+        <nav>
+            <a class="logo" href="/">Salvador - BA</a>
 
-   <!--  6. Abaixo do vídeo escreva o título: “Curiosidades” e logo abaixo faça uma
-pequena lista com algumas curiosidades da sua cidade. -->
-    <div class="description">
-        <h2>Curiosidades</h2>
+            <ul class="nav-list">
+                <li><a href="#">home</a></li>
+                <li><a href="#about">sobre</a></li>
+                <li><a href="#video">video</a></li>
+                <li><a href="#curiosidades">curiosidades</a></li>
+                <li><a href="#form">newsletter</a></li>
+            </ul>
 
-        <p><strong>Soteropolitanos</strong><br>
-           São os que nascem em Salvador. O gentílico é derivado da tradução de "Cidade de Salvador" para o grego, que resulta em "Soterópolis"</p>
+        </nav>
+    </header>
 
-           <p><strong>Capital da Alegria</strong><br>
-            Salvador já teve alguns apelidos como "Capital da Alegria", por suas festas, e "Roma Negra", por ser a metrópole com maior percentual de negros fora da África</p>   
 
-            <p><strong>Primeira capital</strong><br>
-            Salvador foi, de 1549 até 1763, a moradia dos imperadores e da corte real</p> 
-            
-            <p><strong>Mercado Modelo</strong><br>
-            O porão do Mercado Modelo abrigava escravos vindos da África enquanto aguardavam para serem leiloados</p> 
+    <main>
 
-            <p><strong>Escola de Medicina</strong><br>
-            A faculdade de Medicina da Bahia, da Universidade Federal da Bahia, foi a primeira escola de nível superior no Brasil, criada como Escola de Cirurgia da Bahia em 18 de fevereiro de 1808</p> 
-    </div>
+        <h1 class="main-title animate__animated animate__fadeInUp">Salvador, primeira capital do Brasil</h1>
 
-    <footer>
 
-<!--         7. Utilize algum site de ícones para conseguir uma imagem do instagram e
-outra do youtube. Nesses ícones, faça o link com os canais oficiais da sua
-cidade, se não houver, coloque links do seu gosto. -->
-        <div class="social-network">
-            <h2>Mídias</h2>
-            <a href="https://www.instagram.com/prefsalvador/"><img src="img/Instagram.png"></a>
-            <a href="http://www.youtube.com/prefeituradosalvador"><img src="img/youtube.png"></a>
-            <!-- <div>Ícones feitos por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div> -->
-            
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://static.glamurama.uol.com.br/2020/08/ivete.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1616180759267-b0f2e9b070f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2072&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/4172523/pexels-photo-4172523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://guia.costadosauipe.com.br/wp-content/uploads/2021/03/farol-da-barra-interna-post.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cbic.org.br/wp-content/uploads/2019/06/bahia_minist%C3%A9rio_da_sa%C3%BAde.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://w8e8i3u2.stackpathcdn.com/wp-content/uploads/2018/06/mercado-modelo-salvador7.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-    </footer>
+
+
+
+        <div id="about" class="about">
+            <p><strong>Salvador</strong> é um município brasileiro e <strong>capital do estado da Bahia.></strong>
+                Situada
+                na Zona da Mata da Região Nordeste do Brasil, Salvador é notável em todo o país pela sua gastronomia,
+                música
+                e arquitetura, reconhecidas também internacionalmente. A influência africana em muitos aspectos
+                culturais da
+                cidade a torna o centro da cultura afro-brasileira. <strong>Primeira capital da América
+                    Portuguesa</strong>,
+                que corresponde ao atual Brasil, a cidade é uma das mais antigas do continente americano e <strong>uma
+                    das
+                    primeiras cidades planejadas no mundo</strong>, ainda no período do Renascimento. Sua fundação em
+                1549
+                por Tomé de Sousa ocorreu por conta da implantação do Governo-Geral do Brasil pelo Império Português.
+            </p>
+        </div>
+
+        <div id="video" class="video">
+            <iframe class="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/32G_kpbet6s"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class="curiosidades">
+            <h2 class="second-title" id="curiosidades">curiosidades</h2>
+            <ul class='lista'>
+                <li>Primeira capital do brasil</li>
+                <li>Mercado Modelo</li>
+                <li>Faculdade de Medicina</li>
+                <li>Elevador Lacerda</li>
+            </ul>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+              <img src="https://static.escolakids.uol.com.br/conteudo_legenda/beb190281bda46940f50d4c362d405b8.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Primeira capital do brasil</h5>
+                <p class="card-text">Salvador foi, de 1549 até 1763, a moradia dos imperadores e da corte real.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://tourb.com.br/img/lugares/salvador/m/mercado-modelo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mercado Modelo</h5>
+                <p class="card-text">O porão do Mercado Modelo abrigava escravos vindos da África enquanto aguardavam para serem leiloados.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://s2.glbimg.com/HFli1gp86zEOY2Che_5llISPjNo=/0x0:960x540/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/b/B/vvbPPEQVCi1kgkqzdREw/faculdade.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Faculdade de Medicina</h5>
+                <p class="card-text">A faculdade de Medicina da Bahia, da Universidade Federal da Bahia, foi a primeira escola de nível superior no Brasil, criada como Escola de Cirurgia da Bahia em 18 de fevereiro de 1808.</p>
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            </div>
+            <div class="card">
+                <img src="https://lh3.googleusercontent.com/proxy/WsKaWhx8pN1PrQRMOr4sum-3Xvf-JWBq5Ygg3tuV23Ubrcs9oWi-Xf3h3qZewI2bEo9tTkXJHlPZ1lgaN9mLr_chy_ZnW7Pq54IEETpLUmCtHaaPSBXm2fhVUHOVuu4P3Hk8bY_BTo41YFbr9EHEZmbckoQvFs67Yyk" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Elevador Lacerda</h5>
+                  <p class="card-text">O Elevador Lacerda é um sistema de transporte público da cidade de Salvador, capital do estado brasileiro da Bahia. Trata-se do primeiro elevador urbano do mundo.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+          </div>
+
+
+        <div class="banner-second">
+        </div>
+
+        <div id="form" class="container-form">
+            <div class="content first-content">
+
+                <div class="first-column">
+                    <h2 class="title title-primary">Venha pae!</h2>
+                    <h2 class="title title-primary">Salvador, Bahia, BRAZIL</h2>
+
+                    <p class="description description-primary">faça seu cadastro e nos siga nas redes</p>
+
+
+                    <div class="social-media">
+
+                        <ul class="list-social-media">
+
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <em class="fab fa-facebook-f"></em>
+                                </li>
+                            </a>
+
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <em class="fab fa-github"></em>
+                                </li>
+                            </a>
+
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <em class="fab fa-linkedin-in"></em>
+                                </li>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="second-column">
+
+
+                    <form class="form">
+                        <h2>Newsletter</h2>
+                        <label class="label-input" for="">
+                            <em class="far fa-user icon-modify"></em>
+                            <input class="name" required type="text" placeholder="Nome" maxlength="100">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <em class="far fa-envelope icon-modify"></em>
+                            <input class="email" required type="email" placeholder="seuemail@mail.com" maxlength="120">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <em class="fas fa-lock icon-modify"></em>
+                            <input class="password" required type="password" placeholder="Senha" minlength="5"
+                                maxlength="10">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <em class="fas fa-phone icon-modify"></em>
+                            <input required type="tel" placeholder="(00)-1234-5678"
+                                pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <label class="label-dados" for="">Data de nascimento.:</label>
+                            <input type="date">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <label class="label-dados" for="">maior de idade:</label>
+                            <input class="radio" type="radio" checked name="idade"> <label for="">Sim</label>
+                            <input class="radio" type="radio" name="idade"> <label for="">Não</label>
+                        </label>
+
+                        <label class="label-input" for="">
+                            <em class="far fa-map icon-modify"></em>
+                            <label class="label-dados" for="">pontos de interesse na cidade:</label>
+                            <input class="pontoInteresses" list="pontoInteresses" />
+                            <datalist id="pontoInteresses">
+                                <option value="Balada">
+                                <option value="Bar">
+                                <option value="Museu">
+                                <option value="Exposição">
+                                <option value="Parque">
+                                <option value="Gastronomia">
+                                <option value="Gratuito">
+                                <option value="Show">
+                                <option value="Teatro">
+                                <option value="Sarau">
+                                <option value="Cinemas">
+                            </datalist>
+                        </label>
+
+                        <label class="label-input" for="">
+                            <em class="far fa-check-square icon-modify"></em>
+                            <label class="label-dados" for="">Nesse rolê eu sou.:</label>
+                            <input class="check" type="checkbox">
+                            <label for="">turista</label>
+
+                            <input class="check" type="checkbox">
+                            <label for="">residente</label>
+
+                            <input class="check" type="checkbox">
+                            <label for="">estudante</label>
+
+                        </label>
+
+                        <button type="submit" class="btn btn-primary">Inscrever</button>
+                        <button type="reset" class="btn btn-primary">Limpar</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
-
-
-<!-- 
-
-8. No formulário a seguir, insira seu nome, e o link do repositório:
-https://forms.gle/VWajPgRrY1GiX1Xc8 -->
