@@ -23,5 +23,5 @@ Criei um arquivo executar.js para execução/validação do projeto.
 1. Baixar o arquivo para o VSCode
 2. Executar o comando node executar.js
 
-The End :happy:
+The End :smile:
 
