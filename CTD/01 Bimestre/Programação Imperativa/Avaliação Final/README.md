@@ -1,29 +1,27 @@
-# COMO EXECUTAR O PROJETO
-
-## aluno.js, cursos.js
-
-Nos próprios arquivos os comentários indicam onde foram codificados o que se pede nos micro desafios
-
-![image-20211004134407859](C:\Users\disrp\AppData\Roaming\Typora\typora-user-images\image-20211004134407859.png)
+# O PROJETO :package:
 
 
 
-![image-20211004134720600](C:\Users\disrp\AppData\Roaming\Typora\typora-user-images\image-20211004134720600.png)
+## aluno.js :man_student:
+
+Módulo de alunos. Contém os micro desafios 1 e 2
+
+## cursos.js :classical_building:
+
+Módulo de curso. Contém os micro desafios 3, 4, 5, 6 e 7
+
+## estudantes.js :busts_in_silhouette:
+
+Lista de estudantes usada para completar o micro desafio 7
 
 
 
-## estudantes.js
+# COMO EXECUTAR O PROJETO :interrobang:
 
-Arquivo solicitado no micro desafio 7 (último) para ser importado e verificar se os métodos iriam continuar funcionando
+Criei um arquivo executar.js para execução/validação do projeto.
 
-![image-20211004134832882](C:\Users\disrp\AppData\Roaming\Typora\typora-user-images\image-20211004134832882.png)
+1. Baixar o arquivo para o VSCode
+2. Executar o comando node executar.js
 
-## Validação geral
+The End :happy:
 
-No final de cada arquivo contém uma validação comentada que pode ser executada para validar o exercício 
-
-![image-20211004134546745](C:\Users\disrp\AppData\Roaming\Typora\typora-user-images\image-20211004134546745.png)
-
-Exemplo:
-
-![image-20211004135033027](C:\Users\disrp\AppData\Roaming\Typora\typora-user-images\image-20211004135033027.png)

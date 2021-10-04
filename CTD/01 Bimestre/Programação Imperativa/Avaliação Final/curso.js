@@ -1,6 +1,5 @@
 //Micro desafio 3 - Objeto Curso
 const Aluno = require('./aluno');
-const aluno = require('./aluno');
 const estudantes = require('./estudantes')
 
 function Curso(nomeCurso, notaAprovacao, faltasMaximas, listaEstudantes){
@@ -73,11 +72,4 @@ curso.adicionaAluno(new aluno('Manu', 2, [7,7.5,9])) */
 // console.log(curso.listaEstudantes);
 // console.log(curso.listaEstudantes[4]);
 
-// ****  RETIRAR COMENTÁRIO DO BLOCO ABAIXO PARA VALIDAR ****
-/* console.log('Validação do método verificaAprovado.:');
-console.log(curso.verificaAprovado('Érico Ibiapina')); //['Ivete Sangalo','Mario Sérgio Cortella','Érico Ibiapina','Ana Teixeira','Diego Reis']
-
-console.log('Validação do método situacaoTurma.:');
-console.log(curso.situacaoTurma())
-
-console.log(arrayEstudantes); */
+module.exports = Curso;

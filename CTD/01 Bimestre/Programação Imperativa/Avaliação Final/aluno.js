@@ -21,17 +21,4 @@ function faltas(){
     this.qtdFaltas += 1
 }
 
-
-// ****  RETIRAR COMENTÁRIO DO BLOCO ABAIXO PARA VALIDAR ****
-/* console.log('Resultado da criação de um novo objeto Aluno.:');
-let aluno = new Aluno('Diego', 0, [10,9,7])
-console.log(aluno);
-
-console.log('Calculando a média do aluno atráves do método calcularMedia');
-console.log(aluno.calcularMedia());
-
-console.log('Adicionando uma falta ao aluno criado e visualizando a mudança.:');
-aluno.faltas();
-console.log(aluno); */
-
 module.exports = Aluno
