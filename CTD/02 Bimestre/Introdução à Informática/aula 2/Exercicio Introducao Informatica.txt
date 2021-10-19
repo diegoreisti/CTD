@@ -1,0 +1,69 @@
+#####################
+Grupo 5
+Diego reis
+João Francisco Amigo
+Guilherme Tourinho
+Angel Ontiveros
+Daniel Martins
+#####################
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica
+$ mkdir Raiz
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica
+$ cd Raiz/
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz
+$ mkdir pasta1
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz
+$ mkdir pasta2
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz
+$ mkdir pasta3
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz
+$ cd pasta1/
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta1
+$ touch arquivo1.txt
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta1
+$ mv arquivo1.txt ../pasta2
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta1
+$ cd cd ..
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/
+$ cd pasta2/
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta2
+$ rm arquivo1.txt
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta2
+$ cd..
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz
+$ cd pasta3
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3
+$ touch arquivo2.txt
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3
+$ mkdir subpasta
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3
+$ mv arquivo2.txt subpasta/
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3
+$ cd subpasta/
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3/subpasta
+$ ls
+arquivo2.txt
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3/subpasta
+$ rm arquivo2.txt
+
+disrp@DESKTOP-KBKG16E MINGW64 ~/Desktop/exercicio introducao informatica/Raiz/pasta3/subpasta
+$
