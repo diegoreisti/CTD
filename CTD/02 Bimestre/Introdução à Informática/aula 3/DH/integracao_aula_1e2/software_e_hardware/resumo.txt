@@ -1,0 +1,5 @@
+Aquela velha máxima que não falha:
+
+Software: aquilo que você xinga! São códigos que executam tarefas específicas, sistemas complexos, o próprio SO do PC. Não são são coisas físicas e sim lógicas.
+
+Hardware: aquilo que você chuta. São itens físicos, servidores, PCs, roteadores, mouse, teclado, monitor, etc;

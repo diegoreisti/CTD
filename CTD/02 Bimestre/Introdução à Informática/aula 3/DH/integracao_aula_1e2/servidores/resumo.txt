@@ -1,0 +1,1 @@
+Servidor é um "computador" que hospeda um serviço que é consumido por clientes que podem ser usuários finais ou outros softwares

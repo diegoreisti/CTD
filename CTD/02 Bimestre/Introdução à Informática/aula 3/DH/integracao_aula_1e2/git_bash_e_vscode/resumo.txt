@@ -1,0 +1,4 @@
+O gitbash é um aplicativo que oferece a camada de emulação para experiÊncia de linha de comando.
+
+VSCODE é uma ferramenta, IDE, editor de código fonte multiplataforma
+

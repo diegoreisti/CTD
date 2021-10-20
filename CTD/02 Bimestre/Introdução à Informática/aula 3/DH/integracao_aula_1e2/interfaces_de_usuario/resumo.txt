@@ -1,0 +1,3 @@
+Existem várias interfaces de usuário, o próprio terminal é uma delas.
+
+O terminal nos ajuda na comunicação com o computador por meio do teclado e de comandos que são usados para tarefas como criar e deletar aqrquivos e pastas. Além de útil é bem leve pois não possui interface gráfica apenas caracteres.
