@@ -1,0 +1,8 @@
+.row{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #b3d7ff;
+    border-radius: 10px;
+    padding: 15px;
+}
