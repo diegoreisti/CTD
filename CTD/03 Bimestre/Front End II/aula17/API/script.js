@@ -1,12 +1,12 @@
-fetch('https://api.thecatapi.com/v1/images/search?category_ids=4&limit=3')
-    .then(function(cats){
-        return cats.json()
+fetch('https://api.thecatapi.com/v1/images/search?category_ids=4&limit=10')
+.then(function(resultado){
+        return resultado.json()
     })
-    .then(function(cat){
+    .then(function(cats){
 
         let imagens = document.getElementById('imagens')
-
-        cat.forEach(el => {
+        
+        cats.forEach(el => {
             let img = document.createElement('img')
             let div = document.createElement('div')
 

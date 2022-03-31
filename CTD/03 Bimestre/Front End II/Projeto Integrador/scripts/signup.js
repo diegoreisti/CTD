@@ -45,11 +45,17 @@ function createAccount() {
         alert('Senhas não conferem!')
     }
 
-
-    // alert('Login efetuado com sucesso!')
-
-    // window.location.href = 'index.html'
-
-
-}
-
+    else {
+        alert('Login efetuado com sucesso!')
+      }
+    
+     // Armazenamento de dados no localStorage
+      localStorage.setItem('name', name)
+      localStorage.setItem('nickname', nickname)
+      localStorage.setItem('email', email)
+      localStorage.setItem('password', password)
+    
+    //  Redirecionamento de index.html
+      window.location.href = 'index.html'
+    
+    }
