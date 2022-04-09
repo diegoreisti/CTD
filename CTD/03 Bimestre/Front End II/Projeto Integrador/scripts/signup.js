@@ -1,61 +1,87 @@
+//Captura as entradas de dados e ações do usuário na página de cadastro 
+let nome = document.getElementById("inputNomeCadastro");
+let sobrenome = document.getElementById("inputSobrenomeCadastro");
+let email = document.getElementById("inputEmailCadastro");
+let senha = document.getElementById("inputSenhaCadastro");
+let repetirSenha = document.getElementById("inputRepetirSenhaCadastro");
+let botaoCriarConta = document.getElementById("botaoCriarContaCadastro");
 
-function getEBI(el) {
-    return document.getElementById(el)
+botaoCriarConta.addEventListener('click', evento => {
+
+    evento.preventDefault();
+
+    //Verifica se todos os campos estão preenchidos
+
+    if (nome.value != "" && sobrenome.value != "" && email.value != "" && senha.value != "" &&
+        repetirSenha.value != "") {
+
+        // configuracao da API, encontrada na tarefa de criar Usuario.
+
+        let configuracaoRequisicao = {
+            method: 'POST',
+            body: JSON.stringify({
+
+                firstName: nome.value,
+                lastName: sobrenome.value,
+                email: email.value,
+                password: senha.value
+
+            }),
+
+            headers: {
+
+                'Content-type': 'application/json'
+            },
+        };
+
+
+        // Chamando   a API
+
+        fetch("https://ctd-todo-api.herokuapp.com/v1/users", configuracaoRequisicao)
+
+            .then((response) => {
+
+
+                // verifica se o status se é 201, que é o status ok. Se não entra no catch.
+                if (response.status == 201) {
+                    return response.json()
+                }
+                /* Se o código for diferente de sucesso (201), lança um throw para que a execução caia no Catch() */
+                throw response;
+            }).then(function (resposta) {
+                cadastroSucesso(nome.value, sobrenome.value, email.value, resposta.jwt)
+            })
+            .catch(error => {
+                cadastroErro(error)
+            });
+
+    } else {
+
+        alert("Todos os campos devem ser preenchidos para que possa prosseguir")
+    }
+
+
+});
+
+/*  Ao obter o sucesso, recebe o json (token) do usuário*/
+
+
+function cadastroSucesso(nome, sobrenome, email, jsonRecebido) {
+
+
+    localStorage.setItem("user", JSON.stringify({ nome: nome, sobrenome: sobrenome, email: email, token: jsonRecebido }))
+
+    alert("Usuário cadastrado com sucesso")
+
+
+    // e então redirecionamos para a pagina de tarefas;
+    window.location.href = "tarefas.html"
+
 }
 
-function empty(input) {
-    return input.value.trim() === ''
+function cadastroErro(statusRecebido) {
+
+    console.log("Erro ao cadastrar");
+
+    console.log(statusRecebido)
 }
-
-
-function createAccount() {
-
-    const name = getEBI('name').value
-    let fullName = name.split(' ')
-
-    if (name === '' || fullName.length < 2) {
-        alert('Insira seu nome e sobrenome!')
-    }
-
-    localStorage.setItem('name', name)
-
-    const nickname = getEBI('nickname').value
-
-    if (/\d/.test(nickname) && nickname.length >= 4 && nickname.length <= 12) {
-        alert('Apelido não pode conter números!')
-    }
-
-    localStorage.setItem('nickname', nickname)
-
-    const email = getEBI('email').value
-
-    if (email === '' && /.com$/.test(email)) {
-        alert('Insira um e-mail válido!')
-    }
-
-    const password = getEBI('password').value
-
-    if (password.length < 8 || password.length > 12 || password === "") {
-        alert('Senha não preenche os requisitos necessários!')
-    }
-
-    const passwordConfirmation = getEBI('password-confirmation').value
-
-    if (passwordConfirmation != password) {
-        alert('Senhas não conferem!')
-    }
-
-    else {
-        alert('Login efetuado com sucesso!')
-      }
-    
-     // Armazenamento de dados no localStorage
-      localStorage.setItem('name', name)
-      localStorage.setItem('nickname', nickname)
-      localStorage.setItem('email', email)
-      localStorage.setItem('password', password)
-    
-    //  Redirecionamento de index.html
-      window.location.href = 'index.html'
-    
-    }

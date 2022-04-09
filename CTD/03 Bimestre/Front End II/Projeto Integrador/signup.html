@@ -11,43 +11,45 @@
   <link rel="stylesheet" href="styles/acesso.css">
 
   <!-- ---------------------- lógica aplicada no registro -------------------- -->
-  <script src="scripts/signup.js"></script>
+ 
+ 
 
 </head>
 
 <body>
 
   <div class="left">
-    <img src="./assets/pessoa-signup.png" alt="">
+    <img src="assets/pessoa-signup.png" alt="">
   </div>
   <div class="right">
     <form>
       <div class="form-header">
-        <p>To-Do App</p>
+        <p>TO-DO APP</p>
       </div>
+      <h2>Cadastre-se</h2>
 
       <label>
         Nome:
-        <input type="text" id="name" required="required"> 
+        <input type="text" id="inputNomeCadastro">
       </label>
       <label>
-        Apelido:
-        <input type="text" id="nickname">
+        Sobrenome:
+        <input type="text" id="inputSobrenomeCadastro">
       </label>
       <label>
         Email:
-        <input type="text" id="email" required="required">
+        <input type="text" id="inputEmailCadastro">
       </label>
       <label>
         Senha:
-        <input type="password" id="password" required="required">
+        <input type="password" id="inputSenhaCadastro">
       </label>
       <label>
         Repetir senha:
-        <input type="password" id="password-confirmation" required="required">
+        <input type="password" id="inputRepetirSenhaCadastro">
       </label>
 
-      <button type="button" onclick="createAccount()">Criar conta</button>
+      <button type="button" onclick="createAccount()" id="botaoCriarContaCadastro">Criar conta</button>
 
     </form>
     <div class="ingressar">
@@ -55,6 +57,9 @@
     </div>
   </div>
 
+
+  <script src="scripts/validacaoUsuarioCadastro.js" ></script>
+  <script src="scripts/signup.js"></script>
 </body>
 
 </html>
