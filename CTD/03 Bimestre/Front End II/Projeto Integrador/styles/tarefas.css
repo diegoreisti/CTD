@@ -1,7 +1,8 @@
 @import url('./common.css');
+
 header {
   display: flex;
-  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  background: linear-gradient(10deg, #c093f8, #5e3894);
   box-shadow: 0px 3px 5px lightgrey;
   padding: 0 3em;
   margin-bottom: 2em;
@@ -13,18 +14,24 @@ a {
   padding: .7em 1em;
   border-bottom: .2em solid white;
   text-decoration: none;
-  color: white
+  color: #fff;
+  font-size: 1.15rem;
 }
 
 .user-info {
   display: flex;
   align-items: center;
   margin-left: auto;
-  color: rgb(223, 223, 223);
+  color: #c093f8;
 }
 
 .user-info p {
   text-transform: capitalize;
+}
+
+.user-info .username{
+  font-weight: 400;
+  color: #fff;
 }
 
 .user-info .user-image {
@@ -32,11 +39,14 @@ a {
   width: 2em;
   border-radius: 50%;
   background-color: white;
-  opacity: .4;
   margin-left: .7em;
 }
 
-#closeApp{
+.user-image {
+  background-image: url(https://i.pravatar.cc/40);
+}
+
+#closeApp {
   margin-left: 15px;
   font-size: .7em;
   background-color: rgb(218, 88, 88);
@@ -56,7 +66,7 @@ a {
   width: 80%;
   margin: 0 10%;
   padding: 1em;
-  box-shadow: 2px 2px 10px lightgrey;
+  box-shadow: var(--secondary) 2.4px 2.4px 3.2px;
   border-radius: .2em;
   z-index: 20;
 }
@@ -72,12 +82,13 @@ a {
 
 .nova-tarefa input:focus {
   outline: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid var(--secondary);
 }
 
 .nova-tarefa input::placeholder {
-  color: rgb(197, 197, 197);
+  color: var(--secondary);
   text-indent: .2em;
+  font-style: italic;
 }
 
 .nova-tarefa button {
@@ -92,11 +103,18 @@ a {
 
 .nova-tarefa button:hover {
   opacity: 1;
+
 }
 
 .nova-tarefa button img {
   height: 100%;
   width: 100%;
+  transition: all .3s ease;
+}
+
+.nova-tarefa button img:hover {
+  color: var(--secondary);
+  transform: scale(1.25);
 }
 
 .not-done {
@@ -111,7 +129,6 @@ a {
 }
 
 /* Lista de tarefas ----------------------------------------------------------- */
-
 .tarefas-pendentes {
   display: flex;
   flex-direction: column;
@@ -124,6 +141,11 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 1.5em;
+  cursor: pointer;
+}
+
+.tarefa .descricao {
+  cursor: pointer;
 }
 
 .tarefa .not-done {
@@ -131,14 +153,19 @@ a {
   height: 1.5em;
   width: 1.5em;
   background-color: white;
-  box-shadow: 2px 2px 5px lightgrey;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgb(230, 230, 230) 0px 1px 2px;
   border: 2px solid var(--secondary);
   z-index: 2;
   transition: background-color 200ms linear;
 }
 
 .tarefa .not-done:hover {
-  background-color: var(--secondary);
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.tarefa .not-done.checked {
+  background-color: var(--success-color);
 }
 
 .tarefa:first-child .not-done::before {
@@ -170,11 +197,15 @@ a {
   flex: 1;
   background-color: white;
   padding: 1em 2em;
-  box-shadow: 2px 2px 5px lightgrey;
+  box-shadow: var(--secondary) 2.4px 2.4px 3.2px;
+}
+
+.tarefa .descricao p.checked {
+  text-decoration: line-through;
 }
 
 .tarefa .nome {
-  color: rgb(95, 95, 95);
+  color: var(--text-color);
 }
 
 .tarefa .timestamp {
@@ -183,7 +214,6 @@ a {
 }
 
 /* Tarefas terminadas ----------------------------------------------------------- */
-
 .titulo-terminadas {
   position: relative;
   width: 8em;
@@ -191,8 +221,8 @@ a {
   padding: .5em 1em;
   background-color: white;
   border-radius: .2em;
-  box-shadow: 3px 3px 5px lightgrey;
-  color: rgb(170, 170, 170);
+  box-shadow: var(--secondary) 2.4px 2.4px 3.2px;
+  color: var(--text-color);
   font-weight: 400;
   font-size: 1.1em;
   margin-left: calc(15% - 4em);
@@ -207,12 +237,17 @@ a {
   margin: 2em 15%;
 }
 
-.tarefas-terminadas i{
-  color: grey;
+.tarefas-terminadas i {
+  color: #845AAD;
   background-color: rgb(228, 228, 228);
 }
-.tarefas-terminadas button{
+
+.tarefas-terminadas button {
   margin-left: 10px;
+}
+
+button .btnSubmit {
+  color: #845AAD;
 }
 
 .tarefas-terminadas .tarefa .descricao {
@@ -220,25 +255,86 @@ a {
 }
 
 .tarefas-terminadas .tarefa .descricao .nome {
-  color: grey;
+  color: rgb(65, 65, 65);
   text-decoration: line-through;
 }
 
-#skeleton .descricao{
-  background-color: rgb(189, 189, 189);
-}
-#skeleton p{
-  background-color: rgb(214, 214, 214);
-  color: rgb(214, 214, 214);
-}
-#skeleton .not-done{
+#skeleton .descricao {
   background-color: rgb(189, 189, 189);
 }
 
-#skeleton{
+#skeleton p {
+  background-color: rgb(214, 214, 214);
+  color: var(--secondary);
+  font-weight: 400;
+}
+
+#skeleton .not-done {
+  background-color: rgb(189, 189, 189);
+}
+
+#skeleton {
   animation: trasparencia 1s infinite;
 }
+
 @keyframes trasparencia {
-  0%{ opacity: 0.5;}
-  100%{ opacity: 0.8;}
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
 }
+
+
+
+
+/* -------- SKELETON ---------- */
+.skeleton-conteiner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+ }
+  
+ .skeleton-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 1em 2em;
+  box-shadow: 2px 2px 5px lightgrey;
+  animation: loadingContainerAnimation 2s linear infinite;
+ }
+  
+ .skeleton-text {
+  animation: loadingTextAnimation 2s linear infinite;
+  width: 150px;
+  display: block;
+  padding: 0.7rem;
+ }
+  
+ @keyframes loadingContainerAnimation {
+  0% {
+    background: white;
+  }
+  50% {
+    background: rgb(182, 177, 177);
+  }
+  100% {
+    background: white;
+  }
+ }
+  
+ @keyframes loadingTextAnimation {
+  0% {
+    background: white;
+  }
+  50% {
+    background: rgb(128, 123, 123);
+  }
+  100% {
+    background: white;
+  }
+ }
+ 
