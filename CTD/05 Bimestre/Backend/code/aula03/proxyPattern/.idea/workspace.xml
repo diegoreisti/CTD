@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9feecab3-04ea-42a3-938f-a4aaa8b7e8ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chain_Responsibility/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chain_Responsibility/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chain_Responsibility/Chain_Responsibility.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/proxyPattern/entities/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/proxyPattern/entities/Pessoa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/proxyPattern/entities/ServicoVacinar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/proxyPattern/entities/ServicoVacinarProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/proxyPattern/entities/Vacinar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxyPattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/ServicoVacinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/ServicoVacinarProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/Vacinar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/out/production/proxySpotify/Download.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/out/production/proxySpotify/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/out/production/proxySpotify/ServicoDownload.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/out/production/proxySpotify/ServicoDownloadProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/out/production/proxySpotify/Usuario.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/proxySpotify.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/src/Download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/src/ServicoDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/src/ServicoDownloadProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxySpotify/src/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
