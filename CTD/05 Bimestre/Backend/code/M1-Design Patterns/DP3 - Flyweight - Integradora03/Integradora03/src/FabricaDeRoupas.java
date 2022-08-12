@@ -10,7 +10,7 @@ public class FabricaDeRoupas {
             roupa = new Roupa(tamanho);
             roupaMap.put(tamanho, roupa);
         }
-        System.out.printf("Fazendo um(a) '%s' tamanho '%s', Nova: '%B', Importada: '%B'", tamanho, tipoRoupa, eNova, eImportada);
+        System.out.printf("Fazendo um(a) '%s' tamanho '%s', Nova: '%B', Importada: '%B' \n", tamanho, tipoRoupa, eNova, eImportada);
         return roupa;
     }
 
