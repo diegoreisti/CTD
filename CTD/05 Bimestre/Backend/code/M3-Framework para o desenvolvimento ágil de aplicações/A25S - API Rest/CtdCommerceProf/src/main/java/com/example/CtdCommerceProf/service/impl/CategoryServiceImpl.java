@@ -1,7 +1,9 @@
 package com.example.CtdCommerceProf.service.impl;
 
 import com.example.CtdCommerceProf.entity.CategoryEntity;
+import com.example.CtdCommerceProf.entity.ProductEntity;
 import com.example.CtdCommerceProf.entity.dto.CategoryDTO;
+import com.example.CtdCommerceProf.entity.dto.ProductDTO;
 import com.example.CtdCommerceProf.repository.ICategoryRepository;
 import com.example.CtdCommerceProf.service.ICommerceService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +15,6 @@ import java.util.List;
 public class CategoryServiceImpl implements ICommerceService<CategoryDTO> {
     @Autowired
     private ICategoryRepository categoryRepository;
-
     @Override
     public CategoryDTO create(CategoryDTO categoryDTO) {
         CategoryEntity categoryEntity = new CategoryEntity(categoryDTO);
@@ -26,6 +27,13 @@ public class CategoryServiceImpl implements ICommerceService<CategoryDTO> {
     public CategoryDTO getById(int id) {
         CategoryEntity category = categoryRepository.findById(id).get();
         return new CategoryDTO(category);
+    }
+
+    public List<ProductDTO> getProductsByCat(int id){
+        CategoryEntity category = categoryRepository.findById(id).get();
+        List<ProductEntity> productEntities = category.getProductEntities();
+
+        return null;
     }
 
     @Override
@@ -43,11 +51,13 @@ public class CategoryServiceImpl implements ICommerceService<CategoryDTO> {
         return null;
     }
 
-    public boolean ifCategoryExists(int id) {
+    public boolean ifCategoryExists(int id){
         return categoryRepository.existsById(id);
     }
 
-    /*public int getByName(String name) {
-        return categoryRepository.getByName(name);
-    }*/
+    public CategoryDTO getByName(String name){
+        CategoryEntity category = categoryRepository.getByNameSQL(name);
+        return new CategoryDTO(category);
+    }
+
 }

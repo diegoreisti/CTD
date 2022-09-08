@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e292208a-02e9-431a-9e79-b85286023847" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3 - Flyweight - Integradora03/Integradora03/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3-Flyweight/A7S/.idea/A7S.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3-Flyweight/A7S/Floresta/.idea/Floresta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3-Flyweight/A7S/Floresta/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3-Flyweight/A7S/Floresta/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/02 Exerc CaixaEletronico.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/exemplo_compras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/FacadeSupermercado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/FacadeDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/AulaAoVivoProfessor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/medicamentos/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/medicamentos/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/medicamentos/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/medicamentos/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/medicamentos/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/AulaAoVivoProfessor/src/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/Exemplo_Video_Dao2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/dao/impl/MateriaDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/model/Materia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/service/MateriaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/Exemplo_Video_Dao2/src/test/materia/service/MateriaServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/_01exemploDAO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/src/AlunoDAOEmMemoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/src/AlunoDAOH2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/src/AlunoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_01exemploDAO/src/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14A - Padrão DAO (Data Access Object)/_02academiaV2exemploPG/academia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/ClinicaOdonto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/DentistClinic/clinic/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/DentistClinic/clinic/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/DentistClinic/clinic/dao/impl/EnderecoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/DentistClinic/clinic/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/DentistClinic/clinic/model/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/ClinicaOdonto/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A14S - Padrão DAO (Data Access Object)/Exercício - Professor.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/02 Avaliação.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/Avaliacao01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/dao/ConfiguracaoJDBC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/dao/IDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/dao/impl/HotelDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/model/Hotel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/service/HotelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/out/production/Avaliacao01/test/HotelServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/dao/impl/HotelDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/model/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/service/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/Avaliacao01/src/test/HotelServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/DIEGO-REIS.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/ExemploAntesProva.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/dao/ConfiguracaoJDBC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/dao/IDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/dao/impl/FuncionarioDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/model/Funcionario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/service/FuncionarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/out/production/ExemploAntesProva/test/FuncionarioServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/dao/impl/FuncionarioDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/service/FuncionarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A17A - Avaliação 1/ExemploAntesProva/src/test/FuncionarioServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/java/medicamentos/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/java/medicamentos/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/java/medicamentos/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/java/medicamentos/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/java/medicamentos/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercicio_Video_Maven/src/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medicamentos/dao/ConfiguracaoJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medicamentos/dao/IDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medicamentos/dao/impl/MedicamentoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medicamentos/model/Medicamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medicamentos/service/MedicamentoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/MedicamentoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/Flyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/CoffeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/CoffeeFlavour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/CoffeeLatteArt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Sandbox/Flyweight/src/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03-old/FacadeTurismo/FacadeTurismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/Flyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/FacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/FlyweightQuadrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/FlyweightTriangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/Quadrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/out/production/Flyweight/Triangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/FacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/FlyweightQuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/FlyweightTriangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/Flyweight/src/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03/integradora03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/FlyweightRoupas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/src/FacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/src/FlyweightRoupas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/FlyweightRoupas/src/Roupa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../integradora03new/integradora03new.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3 - Flyweight - Integradora03/Integradora03/out/production/Integradora03/FabricaDeRoupas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../M1-Design Patterns/DP3 - Flyweight - Integradora03/Integradora03/out/production/Integradora03/FabricaDeRoupas.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DY6tPpPnHzjp89bXGWGLymRzZM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/dev/Digital-House/CTD/05 Bimestre/Backend/code/M2-Testes Unitários, Logging E Acesso A Dados/A17A - Avaliação 1/Avaliacao01",
+    "settings.editor.selected.configurable": "editing.templates"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src\test\java" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src\main\resources" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src\test\java\test" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src" />
+      <recent name="D:\dev\Digital-House\CTD\05 Bimestre\Backend\code\M2-Testes Unitários, Logging E Acesso A Dados\A18A - Maven\Exercicio_Video_Maven2\src\main\java\medicamentos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MedicamentoServiceTest">
+    <configuration name="MedicamentoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio_Video_Maven2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicamentoServiceTest.salvarMedicamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio_Video_Maven2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MedicamentoServiceTest" />
+      <option name="METHOD_NAME" value="salvarMedicamento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MedicamentoServiceTest" />
+        <item itemvalue="JUnit.MedicamentoServiceTest.salvarMedicamento" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e292208a-02e9-431a-9e79-b85286023847" name="Changes" comment="" />
+      <created>1660863885772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660863885772</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -12,12 +12,17 @@ public class CategoryController {
     private CategoryServiceImpl categoryService;
 
     @PostMapping
-    public CategoryDTO create(@RequestBody CategoryDTO categoryDTO) {
+    public CategoryDTO create(@RequestBody CategoryDTO categoryDTO){
         return categoryService.create(categoryDTO);
     }
 
-    @GetMapping("/{id}")
-    public CategoryDTO getById(@PathVariable int id) {
+    @GetMapping("{id}")
+    public CategoryDTO getById(@PathVariable int id){
         return categoryService.getById(id);
+    }
+
+    @GetMapping("/getByName")
+    public CategoryDTO getByName(@RequestParam(value = "name") String name){
+        return categoryService.getByName(name);
     }
 }
