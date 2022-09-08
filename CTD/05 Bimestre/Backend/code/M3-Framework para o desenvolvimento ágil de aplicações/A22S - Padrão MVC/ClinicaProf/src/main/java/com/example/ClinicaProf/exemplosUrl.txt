@@ -1,0 +1,3 @@
+http://localhost:8080/usuario?id=2&nome=Felipe&email=felipe@email.com&senha=123456789&nivelAcesso=Vip
+
+http://localhost:8080/dentista?id=2&nome=Andre&email=andre@email.com&numMatricula=123456789&atendeConvenio=true
