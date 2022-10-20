@@ -1,0 +1,251 @@
+PROFESSOR O CÓDIGO RODA E TRAZ RESULTADOS DIFERENTES A CADA VEZ. SEGUEM DUAS EXECUÇÕES DO MESMO CÓDIGO E COM RESULTADOS DIFERENTES.
+
+
+################################
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT> robot chico.robot
+==============================================================================
+Chico
+==============================================================================
+TesteCase1 - Processo de compra de uma camiseta "Vira lata caramel...         
+DevTools listening on ws://127.0.0.1:63342/devtools/browser/1f01f737-dd44-4c87-9477-025729309894
+TesteCase1 - Processo de compra de uma camiseta "Vira lata caramel... | FAIL |
+WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+        Ordinal0 [0x00BE6463+2188387]
+        Ordinal0 [0x00B7E461+1762401]
+        Ordinal0 [0x00A93D78+802168]
+        Ordinal0 [0x00A87210+750096]
+        Ordinal0 [0x00A8675A+747354]
+        Ordinal0 [0x00A85D3F+744767]
+        Ordinal0 [0x00A84C28+740392]
+        Ordinal0 [0x00A85228+741928]
+        Ordinal0 [0x00A8F153+782675]
+        Ordinal0 [0x00A99FBB+827323]
+        Ordinal0 [0x00A9D310+840464]
+        Ordinal0 [0x00A854F6+742646]
+        Ordinal0 [0x00A99BF3+826355]
+        Ordinal0 [0x00AECF6D+1167213]
+        Ordinal0 [0x00ADC5F6+1099254]
+        Ordinal0 [0x00AB6BE0+945120]
+        Ordinal0 [0x00AB7AD6+948950]
+        GetHandleVerifier [0x00E871F2+2712546]
+        GetHandleVerifier [0x00E7886D+2652765]
+        GetHandleVerifier [0x00C7002A+520730]
+        GetHandleVerifier [0x00C6EE06+516086]
+        Ordinal0 [0x00B8468B+1787531]
+        Ordinal0 [0x00B88E88+1805960]
+        Ordinal0 [0x00B88F75+1806197]
+        Ordinal0 [0x00B91DF1+1842673]
+        BaseThreadInitThunk [0x75A6FA29+25]
+        RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+        RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+------------------------------------------------------------------------------
+TesteCase2 - Processo de compra de uma camiseta " Amarelo é Desesp... 
+DevTools listening on ws://127.0.0.1:63428/devtools/browser/34412af7-2890-4e0d-ab8b-603e29f2b3fe
+[14568:19924:0707/011651.844:ERROR:device_event_log_impl.cc(214)] [01:16:51.844] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[14568:19924:0707/011651.846:ERROR:device_event_log_impl.cc(214)] [01:16:51.846] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase2 - Processo de compra de uma camiseta " Amarelo é Desesp... | FAIL |
+WebDriverException: Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+        Ordinal0 [0x00BE6463+2188387]
+        Ordinal0 [0x00B7E461+1762401]
+        Ordinal0 [0x00A93D78+802168]
+        Ordinal0 [0x00A87210+750096]
+        Ordinal0 [0x00A8675A+747354]
+        Ordinal0 [0x00A85D3F+744767]
+        Ordinal0 [0x00A8557C+742780]
+        Ordinal0 [0x00A99BF3+826355]
+        Ordinal0 [0x00AECF6D+1167213]
+        Ordinal0 [0x00ADC5F6+1099254]
+        Ordinal0 [0x00AB6BE0+945120]
+        Ordinal0 [0x00AB7AD6+948950]
+        GetHandleVerifier [0x00E871F2+2712546]
+        GetHandleVerifier [0x00E7886D+2652765]
+        GetHandleVerifier [0x00C7002A+520730]
+        GetHandleVerifier [0x00C6EE06+516086]
+        Ordinal0 [0x00B8468B+1787531]
+        Ordinal0 [0x00B88E88+1805960]
+        Ordinal0 [0x00B88F75+1806197]
+        Ordinal0 [0x00B91DF1+1842673]
+        BaseThreadInitThunk [0x75A6FA29+25]
+        RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+        RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+------------------------------------------------------------------------------
+TesteCase3 - Processo de compra de uma camiseta "Erarr é humano" n...
+DevTools listening on ws://127.0.0.1:63516/devtools/browser/f53f426c-30b0-4791-b7da-eec59f85432f
+[21648:20712:0707/011708.094:ERROR:device_event_log_impl.cc(214)] [01:17:08.093] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[21648:20712:0707/011708.096:ERROR:device_event_log_impl.cc(214)] [01:17:08.095] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[8364:15820:0707/011716.516:ERROR:device_event_log_impl.cc(214)] [01:17:16.517] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[8364:15820:0707/011716.518:ERROR:device_event_log_impl.cc(214)] [01:17:16.518] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase3 - Processo de compra de uma camiseta "Erarr é humano" n... | PASS |
+------------------------------------------------------------------------------
+TesteCase4 - Processo de compra de uma camiseta "Nem Te Vi" no sit...
+DevTools listening on ws://127.0.0.1:63615/devtools/browser/f88e69d7-bd01-4cf4-85fb-4392e4faeb3f
+...[4352:18776:0707/011801.164:ERROR:device_event_log_impl.cc(214)] [01:18:01.164] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[4352:18776:0707/011801.167:ERROR:device_event_log_impl.cc(214)] [01:18:01.167] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase4 - Processo de compra de uma camiseta "Nem Te Vi" no sit... | FAIL |
+Page should have contained text 'Compre parcelado com cartão ou á vista com boleto ou depósito' but did not.
+------------------------------------------------------------------------------
+TesteCase5 - Processo de compra de uma camiseta "Alceu Dispor" no ...
+DevTools listening on ws://127.0.0.1:63708/devtools/browser/5782cd25-7501-4f60-bafe-931e409609cb
+TesteCase5 - Processo de compra de uma camiseta "Alceu Dispor" no ... | PASS |
+------------------------------------------------------------------------------
+Chico                                                                 | FAIL |
+5 tests, 2 passed, 3 failed
+==============================================================================
+Output:  D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\output.xml
+Log:     D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\log.html
+Report:  D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\report.html
+PS D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT>
+
+###############################
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT> robot chico.robot
+==============================================================================
+Chico
+==============================================================================
+TesteCase1 - Processo de compra de uma camiseta "Vira lata caramel...         
+DevTools listening on ws://127.0.0.1:63818/devtools/browser/06f06e1e-3cd6-4133-8853-974c7037fd21
+TesteCase1 - Processo de compra de uma camiseta "Vira lata caramel... | FAIL |
+WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+        Ordinal0 [0x00BE6463+2188387]
+        Ordinal0 [0x00B7E461+1762401]
+        Ordinal0 [0x00A93D78+802168]
+        Ordinal0 [0x00A87210+750096]
+        Ordinal0 [0x00A8675A+747354]
+        Ordinal0 [0x00A85D3F+744767]
+        Ordinal0 [0x00A84C28+740392]
+        Ordinal0 [0x00A85228+741928]
+        Ordinal0 [0x00A8EF2F+782127]
+        Ordinal0 [0x00A99FBB+827323]
+        Ordinal0 [0x00A9D310+840464]
+        Ordinal0 [0x00A854F6+742646]
+        Ordinal0 [0x00A99BF3+826355]
+        Ordinal0 [0x00AECF6D+1167213]
+        Ordinal0 [0x00ADC5F6+1099254]
+        Ordinal0 [0x00AB6BE0+945120]
+        Ordinal0 [0x00AB7AD6+948950]
+        GetHandleVerifier [0x00E871F2+2712546]
+        GetHandleVerifier [0x00E7886D+2652765]
+        GetHandleVerifier [0x00C7002A+520730]
+        GetHandleVerifier [0x00C6EE06+516086]
+        Ordinal0 [0x00B8468B+1787531]
+        Ordinal0 [0x00B88E88+1805960]
+        Ordinal0 [0x00B88F75+1806197]
+        Ordinal0 [0x00B91DF1+1842673]
+        BaseThreadInitThunk [0x75A6FA29+25]
+        RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+        RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+------------------------------------------------------------------------------
+TesteCase2 - Processo de compra de uma camiseta " Amarelo é Desesp...
+DevTools listening on ws://127.0.0.1:63905/devtools/browser/a1e816c7-2712-4475-8b5b-438f8a0ad78c
+[16440:11812:0707/012202.295:ERROR:device_event_log_impl.cc(214)] [01:22:02.295] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[16440:11812:0707/012202.298:ERROR:device_event_log_impl.cc(214)] [01:22:02.298] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase2 - Processo de compra de uma camiseta " Amarelo é Desesp... | PASS |
+------------------------------------------------------------------------------
+TesteCase3 - Processo de compra de uma camiseta "Erarr é humano" n...
+DevTools listening on ws://127.0.0.1:64000/devtools/browser/91bac531-14bb-4336-8c50-81135336a295
+...[23520:22548:0707/012246.093:ERROR:device_event_log_impl.cc(214)] [01:22:46.092] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[23520:22548:0707/012246.098:ERROR:device_event_log_impl.cc(214)] [01:22:46.098] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase3 - Processo de compra de uma camiseta "Erarr é humano" n... | PASS |
+------------------------------------------------------------------------------
+TesteCase4 - Processo de compra de uma camiseta "Nem Te Vi" no sit...
+DevTools listening on ws://127.0.0.1:64094/devtools/browser/4e8fae14-c2ae-493d-a922-0891fade1827
+TesteCase4 - Processo de compra de uma camiseta "Nem Te Vi" no sit... | FAIL |
+WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+        Ordinal0 [0x00BE6463+2188387]
+        Ordinal0 [0x00B7E461+1762401]
+        Ordinal0 [0x00A93D78+802168]
+        Ordinal0 [0x00A87210+750096]
+        Ordinal0 [0x00A8675A+747354]
+        Ordinal0 [0x00A85D3F+744767]
+        Ordinal0 [0x00A84C28+740392]
+        Ordinal0 [0x00A85228+741928]
+        Ordinal0 [0x00A8EF2F+782127]
+        Ordinal0 [0x00A99FBB+827323]
+        Ordinal0 [0x00A9D310+840464]
+        Ordinal0 [0x00A854F6+742646]
+        Ordinal0 [0x00A99BF3+826355]
+        Ordinal0 [0x00AECF6D+1167213]
+        Ordinal0 [0x00ADC5F6+1099254]
+        Ordinal0 [0x00AB6BE0+945120]
+        Ordinal0 [0x00AB7AD6+948950]
+        GetHandleVerifier [0x00E871F2+2712546]
+        GetHandleVerifier [0x00E7886D+2652765]
+        GetHandleVerifier [0x00C7002A+520730]
+        GetHandleVerifier [0x00C6EE06+516086]
+        Ordinal0 [0x00B8468B+1787531]
+        Ordinal0 [0x00B88E88+1805960]
+        Ordinal0 [0x00B88F75+1806197]
+        Ordinal0 [0x00B91DF1+1842673]
+        BaseThreadInitThunk [0x75A6FA29+25]
+        RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+        RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+------------------------------------------------------------------------------
+TesteCase5 - Processo de compra de uma camiseta "Alceu Dispor" no ... 
+DevTools listening on ws://127.0.0.1:64184/devtools/browser/d1999ad8-24bf-411c-be95-fbe14a50c410
+[23164:13644:0707/012312.160:ERROR:device_event_log_impl.cc(214)] [01:23:12.160] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+[23164:13644:0707/012312.161:ERROR:device_event_log_impl.cc(214)] [01:23:12.160] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+.[24496:24120:0707/012321.122:ERROR:device_event_log_impl.cc(214)] [01:23:21.121] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao 
+sistema nÒo estß funcionando. (0x1F)
+[24496:24120:0707/012321.124:ERROR:device_event_log_impl.cc(214)] [01:23:21.123] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Um dispositivo conectado ao sistema nÒo estß funcionando. (0x1F)
+TesteCase5 - Processo de compra de uma camiseta "Alceu Dispor" no ... | FAIL |
+WebDriverException: Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+        Ordinal0 [0x00BE6463+2188387]
+        Ordinal0 [0x00B7E461+1762401]
+        Ordinal0 [0x00A93D78+802168]
+        Ordinal0 [0x00A87210+750096]
+        Ordinal0 [0x00A8675A+747354]
+        Ordinal0 [0x00A85D3F+744767]
+        Ordinal0 [0x00A8557C+742780]
+        Ordinal0 [0x00A99BF3+826355]
+        Ordinal0 [0x00AECF6D+1167213]
+        Ordinal0 [0x00ADC5F6+1099254]
+        Ordinal0 [0x00AB6BE0+945120]
+        Ordinal0 [0x00AB7AD6+948950]
+        GetHandleVerifier [0x00E871F2+2712546]
+        GetHandleVerifier [0x00E7886D+2652765]
+        GetHandleVerifier [0x00C7002A+520730]
+        GetHandleVerifier [0x00C6EE06+516086]
+        Ordinal0 [0x00B8468B+1787531]
+        Ordinal0 [0x00B88E88+1805960]
+        Ordinal0 [0x00B88F75+1806197]
+        Ordinal0 [0x00B91DF1+1842673]
+        BaseThreadInitThunk [0x75A6FA29+25]
+        RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+        RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+------------------------------------------------------------------------------
+Chico                                                                 | FAIL |
+5 tests, 2 passed, 3 failed
+==============================================================================
+Output:  D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\output.xml
+Log:     D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\log.html
+Report:  D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\report.html
+PS D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT

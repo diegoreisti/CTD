@@ -1,0 +1,6 @@
+Conectando o Java ao H2
+Para poder conectar ao H2, vamos criar uma tabela “TEST” no banco de dados. Para isso, devemos executar a instrução no console:
+
+DROP TABLE IF EXISTS TEST;
+
+CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255));

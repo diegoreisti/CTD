@@ -1,0 +1,8 @@
+Invocando uma API a partir do back end
+Essa arquitetura é usada quando temos que invocar uma API de um terceiro, por exemplo, uma API do Facebook, Twitter, etc.
+
+Nestes casos, é aconselhável consumir e trabalhar com essas APIs da camada de acesso a dados. Como sabemos, no mundo da programação existem muitas maneiras de resolver o mesmo problema. Veremos como podemos consumir diferentes APIs usando o Unirest.
+
+
+O que é o Unirest?
+O Unirest é uma biblioteca que nos permite conectar como cliente a um serviço REST, não só está disponível para Java, mas também é utilizada em várias linguagens, como Node.js, .NET, Python, Ruby, entre outras. Vamos ver como implementar.

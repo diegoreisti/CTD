@@ -1,0 +1,16 @@
+/*Alternativas
+ResponseBody: em aplicações clássicas com o Spring MVC, os endpoints geralmente retornam páginas HTML renderizadas, as vezes, só precisamos retornar os dados.
+Nesses casos, podemos marcar o método do controller com @ResponseBody, e o Spring trata o valor do resultado do métodos como o próprio corpo da resposta HTTP.
+
+@ResponseStatus: para quando um endpoint retorna com sucesso, o Spring fornece uma resposta HTTP 200 (OK). Se o endpoint lançar uma exceção, o Spring procura por um manipulador de exceção que indica qual status HTTP usar.
+Podemos marcar o método com @ResponseStatus e, portanto, o Spring retorna com um status HTTP personalizado.
+
+Manipular diretamente a resposta: o Spring também nos permite acessar diretamente o objeto javax.servlet.http.HttpServletResponse, apenas temos que declará-lo como um argumento do método, como vemos no código abaixo:
+ */   
+
+@GetMapping("/manual")
+void manual (HttpServerletResponse response) throws IOException {
+       response.setHeader("Custom - Header", "foo");
+       response.setStatus(200);
+       response.getWriter().println("Hello Word!");
+}

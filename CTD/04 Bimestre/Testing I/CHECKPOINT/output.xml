@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220707 01:21:46.562" rpa="false" schemaversion="3">
+<suite id="s1" name="Chico" source="D:\dev\Digital-House\CTD\04 Bimestre\Testing I\CHECKPOINT\chico.robot">
+<test id="s1-t1" name="TesteCase1 - Processo de compra de uma camiseta &quot;Vira lata caramelo&quot; no site do Chico Rei" line="8">
+<kw name="Clicar em &quot;Concordar&quot; no aviso sobre Cookies" library="chico">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220707 01:21:46.781" level="INFO">Opening browser 'Chrome' to base url 'https://chicorei.com/'.</msg>
+<status status="PASS" starttime="20220707 01:21:46.781" endtime="20220707 01:21:52.312"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220707 01:21:52.312" endtime="20220707 01:21:52.541"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_POLICY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:21:52.543" level="INFO">Clicking element 'id=confirmPolicyButton'.</msg>
+<status status="PASS" starttime="20220707 01:21:52.541" endtime="20220707 01:21:53.571"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:21:54.579" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:21:53.571" endtime="20220707 01:21:54.579"/>
+</kw>
+<status status="PASS" starttime="20220707 01:21:46.781" endtime="20220707 01:21:54.579"/>
+</kw>
+<kw name="Pesquisar por &quot;Vira lata caramelo&quot; e selecionar a primeira opção da lista de resultados" library="chico">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SEARCH}</arg>
+<arg>Vira lata caramelo</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220707 01:21:54.581" level="INFO">Typing text 'Vira lata caramelo' into text field 'id=header-search-input-desktop'.</msg>
+<status status="PASS" starttime="20220707 01:21:54.580" endtime="20220707 01:21:55.033"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:21:56.049" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:21:55.033" endtime="20220707 01:21:56.049"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEITEM}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:21:56.049" level="INFO">Clicking element 'css=#header-search-desktop &gt; form &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.search-result-thumb.flex-child-fixed &gt; img'.</msg>
+<msg timestamp="20220707 01:22:00.218" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-72.png"&gt;&lt;img src="selenium-screenshot-72.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220707 01:22:00.219" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A84C28+740392]
+	Ordinal0 [0x00A85228+741928]
+	Ordinal0 [0x00A8EF2F+782127]
+	Ordinal0 [0x00A99FBB+827323]
+	Ordinal0 [0x00A9D310+840464]
+	Ordinal0 [0x00A854F6+742646]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</msg>
+<status status="FAIL" starttime="20220707 01:21:56.049" endtime="20220707 01:22:00.222"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:21:54.580" endtime="20220707 01:22:00.223"/>
+</kw>
+<kw name="Validar se o valor do produto é &quot;R$ 69,99&quot; 1" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.224" endtime="20220707 01:22:00.224"/>
+</kw>
+<kw name="Selecionar um tamanho, cor e clicar em comprar" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.224" endtime="20220707 01:22:00.224"/>
+</kw>
+<kw name="Clicar em &quot;Ver sacola&quot;" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.225" endtime="20220707 01:22:00.225"/>
+</kw>
+<kw name="Validar se a mensagem do cartão fidelidade está sendo exibida" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.225" endtime="20220707 01:22:00.225"/>
+</kw>
+<kw name="Clicar em &quot;Fechar pedido&quot;" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.225" endtime="20220707 01:22:00.225"/>
+</kw>
+<kw name="Tear Down" library="chico">
+<status status="NOT RUN" starttime="20220707 01:22:00.225" endtime="20220707 01:22:00.225"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:21:46.779" endtime="20220707 01:22:00.226">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A84C28+740392]
+	Ordinal0 [0x00A85228+741928]
+	Ordinal0 [0x00A8EF2F+782127]
+	Ordinal0 [0x00A99FBB+827323]
+	Ordinal0 [0x00A9D310+840464]
+	Ordinal0 [0x00A854F6+742646]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</status>
+</test>
+<test id="s1-t2" name="TesteCase2 - Processo de compra de uma camiseta &quot; Amarelo é Desespero&quot; no site do Chico Rei" line="17">
+<kw name="Clicar em &quot;Concordar&quot; no aviso sobre Cookies 2" library="chico">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220707 01:22:00.235" level="INFO">Opening browser 'Chrome' to base url 'https://chicorei.com/'.</msg>
+<status status="PASS" starttime="20220707 01:22:00.235" endtime="20220707 01:22:06.174"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220707 01:22:06.175" endtime="20220707 01:22:06.914"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_POLICY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:06.915" level="INFO">Clicking element 'id=confirmPolicyButton'.</msg>
+<status status="PASS" starttime="20220707 01:22:06.914" endtime="20220707 01:22:08.704"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:09.705" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:08.704" endtime="20220707 01:22:09.705"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:00.234" endtime="20220707 01:22:09.705"/>
+</kw>
+<kw name="Pesquisar por &quot;Amarelo é desespero&quot; e selecionar a primeira opção da lista de resultados" library="chico">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SEARCH}</arg>
+<arg>Amarelo é desespero</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:09.708" level="INFO">Typing text 'Amarelo é desespero' into text field 'id=header-search-input-desktop'.</msg>
+<status status="PASS" starttime="20220707 01:22:09.706" endtime="20220707 01:22:10.225"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:11.227" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:10.225" endtime="20220707 01:22:11.227"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEITEM}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:11.228" level="INFO">Clicking element 'css=#header-search-desktop &gt; form &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.search-result-thumb.flex-child-fixed &gt; img'.</msg>
+<status status="PASS" starttime="20220707 01:22:11.227" endtime="20220707 01:22:16.256"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:09.706" endtime="20220707 01:22:16.256"/>
+</kw>
+<kw name="Validar se o valor do produto é &quot;R$ 69,99&quot; 2" library="chico">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>${WSCROLL}</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20220707 01:22:16.260" level="INFO">Executing JavaScript:
+window.scroll(0, 300)
+Without any arguments.</msg>
+<status status="PASS" starttime="20220707 01:22:16.258" endtime="20220707 01:22:16.388"/>
+</kw>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<arg>${CARAMELOPRICE}</arg>
+<arg>74,99</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220707 01:22:17.027" level="INFO">Element 'css=#product-main-right &gt; div:nth-child(1) &gt; div.product-price.text-yanone &gt; div &gt; p.h2.text-accent.mx-0.my-0.mr.flex-child-fixed.text-bold' contains text '74,99'.</msg>
+<status status="PASS" starttime="20220707 01:22:16.389" endtime="20220707 01:22:17.027"/>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>${WSCROLL}</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20220707 01:22:17.028" level="INFO">Executing JavaScript:
+window.scroll(0, 300)
+Without any arguments.</msg>
+<status status="PASS" starttime="20220707 01:22:17.027" endtime="20220707 01:22:17.075"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:16.258" endtime="20220707 01:22:17.076"/>
+</kw>
+<kw name="Selecionar um tamanho, cor e clicar em comprar 2" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:18.089" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:17.079" endtime="20220707 01:22:18.089"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${DESPERSIZE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:18.089" level="INFO">Clicking element 'xpath=//*[@id="product-variations"]/div[1]/div/div[3]/nav/div[3]'.</msg>
+<status status="PASS" starttime="20220707 01:22:18.089" endtime="20220707 01:22:18.185"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${DESPERCOR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:18.186" level="INFO">Clicking element 'xpath=//*[@id="product-variations"]/div[1]/div/div[4]/nav/div[3]/div'.</msg>
+<status status="PASS" starttime="20220707 01:22:18.185" endtime="20220707 01:22:18.306"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTNCOMPRAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:18.306" level="INFO">Clicking element 'xpath=//*[@id="product-buy-button-container"]/button'.</msg>
+<status status="PASS" starttime="20220707 01:22:18.306" endtime="20220707 01:22:18.508"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:19.510" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:18.509" endtime="20220707 01:22:19.510"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:17.079" endtime="20220707 01:22:19.510"/>
+</kw>
+<kw name="Clicar em &quot;Ver sacola&quot; 2" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:20.013" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:19.511" endtime="20220707 01:22:20.013"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SACOLA}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:20.014" level="INFO">Clicking element 'xpath=//*[@id="header-cart-popover"]/div/div[3]/a'.</msg>
+<status status="PASS" starttime="20220707 01:22:20.014" endtime="20220707 01:22:21.009"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:19.511" endtime="20220707 01:22:21.009"/>
+</kw>
+<kw name="Validar se a mensagem &quot;Adquira o Chico Rei Prime para desfrutar de frete grátis por 1 ano em todos os pedidos, sem valor mínimo.&quot; está sendo exibida" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:21.527" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:21.010" endtime="20220707 01:22:21.527"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>${TXTFIDELIDADE}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20220707 01:22:23.065" level="INFO">Current page contains text 'Você está acumulando 1 ponto no cartão fidelidade'.</msg>
+<status status="PASS" starttime="20220707 01:22:21.527" endtime="20220707 01:22:23.065"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:21.010" endtime="20220707 01:22:23.065"/>
+</kw>
+<kw name="Clicar em &quot;Fechar pedido&quot; 2" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:23.577" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:23.066" endtime="20220707 01:22:23.577"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTNFECHARPEDIDO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:23.578" level="INFO">Clicking element 'css=#cart-finish &gt; button.btn.btn-xl.btn-wide.mt.hidden-xs-down'.</msg>
+<status status="PASS" starttime="20220707 01:22:23.577" endtime="20220707 01:22:26.061"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:23.066" endtime="20220707 01:22:26.062"/>
+</kw>
+<kw name="Tear Down 2" library="chico">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20220707 01:22:26.064" endtime="20220707 01:22:31.309"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:26.064" endtime="20220707 01:22:31.310"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:00.233" endtime="20220707 01:22:31.312"/>
+</test>
+<test id="s1-t3" name="TesteCase3 - Processo de compra de uma camiseta &quot;Erarr é humano&quot; no site do Chico Rei" line="26">
+<kw name="Clicar em &quot;Concordar&quot; no aviso sobre Cookies 3" library="chico">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220707 01:22:31.328" level="INFO">Opening browser 'Chrome' to base url 'https://chicorei.com/'.</msg>
+<status status="PASS" starttime="20220707 01:22:31.325" endtime="20220707 01:22:36.937"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220707 01:22:36.937" endtime="20220707 01:22:37.104"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_POLICY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:37.105" level="INFO">Clicking element 'id=confirmPolicyButton'.</msg>
+<status status="PASS" starttime="20220707 01:22:37.105" endtime="20220707 01:22:37.229"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:38.230" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:37.229" endtime="20220707 01:22:38.230"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:31.322" endtime="20220707 01:22:38.231"/>
+</kw>
+<kw name="Pesquisar por &quot;Erarr&quot; e selecionar a primeira opção da lista de resultados" library="chico">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SEARCH}</arg>
+<arg>Erarr</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:38.234" level="INFO">Typing text 'Erarr' into text field 'id=header-search-input-desktop'.</msg>
+<status status="PASS" starttime="20220707 01:22:38.234" endtime="20220707 01:22:38.713"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:39.728" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:38.713" endtime="20220707 01:22:39.728"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEITEM}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:39.729" level="INFO">Clicking element 'css=#header-search-desktop &gt; form &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.search-result-thumb.flex-child-fixed &gt; img'.</msg>
+<status status="PASS" starttime="20220707 01:22:39.728" endtime="20220707 01:22:43.427"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:44.439" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:43.428" endtime="20220707 01:22:44.439"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:38.233" endtime="20220707 01:22:44.439"/>
+</kw>
+<kw name="Validar se o valor do produto é &quot;R$ 79,99&quot;" library="chico">
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<arg>${WSCROLL}</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<msg timestamp="20220707 01:22:44.441" level="INFO">Executing JavaScript:
+window.scroll(0, 300)
+Without any arguments.</msg>
+<status status="PASS" starttime="20220707 01:22:44.440" endtime="20220707 01:22:44.447"/>
+</kw>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<arg>${CARAMELOPRICE}</arg>
+<arg>79,99</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20220707 01:22:44.470" level="INFO">Element 'css=#product-main-right &gt; div:nth-child(1) &gt; div.product-price.text-yanone &gt; div &gt; p.h2.text-accent.mx-0.my-0.mr.flex-child-fixed.text-bold' contains text '79,99'.</msg>
+<status status="PASS" starttime="20220707 01:22:44.447" endtime="20220707 01:22:44.471"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:44.439" endtime="20220707 01:22:44.471"/>
+</kw>
+<kw name="Selecionar um tamanho, cor e clicar em comprar 3" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:45.477" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:44.472" endtime="20220707 01:22:45.477"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${DESPERSIZE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:45.480" level="INFO">Clicking element 'xpath=//*[@id="product-variations"]/div[1]/div/div[3]/nav/div[3]'.</msg>
+<status status="PASS" starttime="20220707 01:22:45.478" endtime="20220707 01:22:45.602"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${DESPERCOR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:45.603" level="INFO">Clicking element 'xpath=//*[@id="product-variations"]/div[1]/div/div[4]/nav/div[3]/div'.</msg>
+<status status="PASS" starttime="20220707 01:22:45.603" endtime="20220707 01:22:45.703"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTNCOMPRAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:45.704" level="INFO">Clicking element 'xpath=//*[@id="product-buy-button-container"]/button'.</msg>
+<status status="PASS" starttime="20220707 01:22:45.703" endtime="20220707 01:22:45.838"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:46.848" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:22:45.838" endtime="20220707 01:22:46.848"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:44.471" endtime="20220707 01:22:46.848"/>
+</kw>
+<kw name="Clicar em &quot;Ver sacola&quot; 3" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:47.364" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:46.849" endtime="20220707 01:22:47.364"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SACOLA}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:47.365" level="INFO">Clicking element 'xpath=//*[@id="header-cart-popover"]/div/div[3]/a'.</msg>
+<status status="PASS" starttime="20220707 01:22:47.364" endtime="20220707 01:22:48.354"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:46.848" endtime="20220707 01:22:48.355"/>
+</kw>
+<kw name="Validar se a mensagem &quot;De segunda a sexta, das 8h às 20h.&quot; está sendo exibida" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:48.874" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:48.356" endtime="20220707 01:22:48.874"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>${TXTFUNCIONAME}</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20220707 01:22:50.500" level="INFO">Current page contains text 'De segunda a sexta, das 8h às 18h'.</msg>
+<status status="PASS" starttime="20220707 01:22:48.874" endtime="20220707 01:22:50.500"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:48.355" endtime="20220707 01:22:50.501"/>
+</kw>
+<kw name="Clicar em &quot;Fechar pedido&quot; 3" library="chico">
+<kw name="Sleep" library="BuiltIn">
+<arg>0.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:22:51.016" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20220707 01:22:50.504" endtime="20220707 01:22:51.016"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTNFECHARPEDIDO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:22:51.017" level="INFO">Clicking element 'css=#cart-finish &gt; button.btn.btn-xl.btn-wide.mt.hidden-xs-down'.</msg>
+<status status="PASS" starttime="20220707 01:22:51.017" endtime="20220707 01:22:53.974"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:50.504" endtime="20220707 01:22:53.974"/>
+</kw>
+<kw name="Tear Down 3" library="chico">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20220707 01:22:53.975" endtime="20220707 01:22:56.641"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:53.975" endtime="20220707 01:22:56.642"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:31.318" endtime="20220707 01:22:56.644"/>
+</test>
+<test id="s1-t4" name="TesteCase4 - Processo de compra de uma camiseta &quot;Nem Te Vi&quot; no site do Chico Rei" line="35">
+<kw name="Clicar em &quot;Concordar&quot; no aviso sobre Cookies 4" library="chico">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220707 01:22:56.658" level="INFO">Opening browser 'Chrome' to base url 'https://chicorei.com/'.</msg>
+<status status="PASS" starttime="20220707 01:22:56.655" endtime="20220707 01:23:02.467"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220707 01:23:02.467" endtime="20220707 01:23:02.681"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_POLICY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:02.682" level="INFO">Clicking element 'id=confirmPolicyButton'.</msg>
+<status status="PASS" starttime="20220707 01:23:02.681" endtime="20220707 01:23:03.613"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:23:04.615" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:23:03.614" endtime="20220707 01:23:04.615"/>
+</kw>
+<status status="PASS" starttime="20220707 01:22:56.653" endtime="20220707 01:23:04.616"/>
+</kw>
+<kw name="Pesquisar por &quot;Nem Te Vi&quot; e selecionar a primeira opção da lista de resultados" library="chico">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SEARCH}</arg>
+<arg>Nem Te Vi</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:04.618" level="INFO">Typing text 'Nem Te Vi' into text field 'id=header-search-input-desktop'.</msg>
+<status status="PASS" starttime="20220707 01:23:04.617" endtime="20220707 01:23:04.876"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:23:05.880" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:23:04.876" endtime="20220707 01:23:05.880"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEITEM}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:05.882" level="INFO">Clicking element 'css=#header-search-desktop &gt; form &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.search-result-thumb.flex-child-fixed &gt; img'.</msg>
+<msg timestamp="20220707 01:23:09.907" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-73.png"&gt;&lt;img src="selenium-screenshot-73.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220707 01:23:09.908" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A84C28+740392]
+	Ordinal0 [0x00A85228+741928]
+	Ordinal0 [0x00A8EF2F+782127]
+	Ordinal0 [0x00A99FBB+827323]
+	Ordinal0 [0x00A9D310+840464]
+	Ordinal0 [0x00A854F6+742646]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</msg>
+<status status="FAIL" starttime="20220707 01:23:05.881" endtime="20220707 01:23:09.908"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220707 01:23:09.909" endtime="20220707 01:23:09.909"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:23:04.616" endtime="20220707 01:23:09.910"/>
+</kw>
+<kw name="Validar se o valor do produto é &quot;R$ 74,99&quot;" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:09.910" endtime="20220707 01:23:09.910"/>
+</kw>
+<kw name="Selecionar um tamanho, cor e clicar em comprar 4" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:09.911" endtime="20220707 01:23:09.911"/>
+</kw>
+<kw name="Clicar em &quot;Ver sacola&quot; 4" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:09.911" endtime="20220707 01:23:09.911"/>
+</kw>
+<kw name="Validar se a mensagem &quot;Compre parcelado com cartão ou á vista com boleto ou depósito&quot; está sendo exibida" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:09.911" endtime="20220707 01:23:09.912"/>
+</kw>
+<kw name="Clicar em &quot;Fechar pedido&quot; 4" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:09.912" endtime="20220707 01:23:09.912"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:22:56.650" endtime="20220707 01:23:09.913">WebDriverException: Message: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A84C28+740392]
+	Ordinal0 [0x00A85228+741928]
+	Ordinal0 [0x00A8EF2F+782127]
+	Ordinal0 [0x00A99FBB+827323]
+	Ordinal0 [0x00A9D310+840464]
+	Ordinal0 [0x00A854F6+742646]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</status>
+</test>
+<test id="s1-t5" name="TesteCase5 - Processo de compra de uma camiseta &quot;Alceu Dispor&quot; no site do Chico Rei" line="43">
+<kw name="Clicar em &quot;Concordar&quot; no aviso sobre Cookies 5" library="chico">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SITE}</arg>
+<arg>${NAVEGADOR}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220707 01:23:09.921" level="INFO">Opening browser 'Chrome' to base url 'https://chicorei.com/'.</msg>
+<status status="PASS" starttime="20220707 01:23:09.920" endtime="20220707 01:23:16.544"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220707 01:23:16.544" endtime="20220707 01:23:16.751"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_POLICY}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:16.751" level="INFO">Clicking element 'id=confirmPolicyButton'.</msg>
+<status status="PASS" starttime="20220707 01:23:16.751" endtime="20220707 01:23:19.938"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:23:20.942" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:23:19.938" endtime="20220707 01:23:20.942"/>
+</kw>
+<status status="PASS" starttime="20220707 01:23:09.920" endtime="20220707 01:23:20.942"/>
+</kw>
+<kw name="Pesquisar por &quot;Alceu Dispor&quot; e selecionar a primeira opção da lista de resultados" library="chico">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${SEARCH}</arg>
+<arg>Alceu Dispor</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:20.943" level="INFO">Typing text 'Alceu Dispor' into text field 'id=header-search-input-desktop'.</msg>
+<status status="PASS" starttime="20220707 01:23:20.943" endtime="20220707 01:23:21.288"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220707 01:23:22.296" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220707 01:23:21.288" endtime="20220707 01:23:22.296"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEITEM}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220707 01:23:22.297" level="INFO">Clicking element 'css=#header-search-desktop &gt; form &gt; div &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div.search-result-thumb.flex-child-fixed &gt; img'.</msg>
+<msg timestamp="20220707 01:23:29.362" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-74.png"&gt;&lt;img src="selenium-screenshot-74.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220707 01:23:29.363" level="FAIL">WebDriverException: Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A8557C+742780]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</msg>
+<status status="FAIL" starttime="20220707 01:23:22.296" endtime="20220707 01:23:29.364"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220707 01:23:29.365" endtime="20220707 01:23:29.365"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:23:20.943" endtime="20220707 01:23:29.366"/>
+</kw>
+<kw name="Validar se o valor do produto é &quot;R$ 79,99&quot; 5" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.367" endtime="20220707 01:23:29.368"/>
+</kw>
+<kw name="Selecionar um tamanho, cor e clicar em comprar 5" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.369" endtime="20220707 01:23:29.369"/>
+</kw>
+<kw name="Clicar em &quot;Ver sacola&quot; 5" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.369" endtime="20220707 01:23:29.369"/>
+</kw>
+<kw name="Validar se a mensagem &quot;Sua primeira troca na Chico Rei é por nossa conta!&quot; está sendo exibida" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.369" endtime="20220707 01:23:29.369"/>
+</kw>
+<kw name="Clicar em &quot;Fechar pedido&quot; 5" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.370" endtime="20220707 01:23:29.370"/>
+</kw>
+<kw name="Tear Down 5" library="chico">
+<status status="NOT RUN" starttime="20220707 01:23:29.376" endtime="20220707 01:23:29.376"/>
+</kw>
+<status status="FAIL" starttime="20220707 01:23:09.919" endtime="20220707 01:23:29.377">WebDriverException: Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00BE6463+2188387]
+	Ordinal0 [0x00B7E461+1762401]
+	Ordinal0 [0x00A93D78+802168]
+	Ordinal0 [0x00A87210+750096]
+	Ordinal0 [0x00A8675A+747354]
+	Ordinal0 [0x00A85D3F+744767]
+	Ordinal0 [0x00A8557C+742780]
+	Ordinal0 [0x00A99BF3+826355]
+	Ordinal0 [0x00AECF6D+1167213]
+	Ordinal0 [0x00ADC5F6+1099254]
+	Ordinal0 [0x00AB6BE0+945120]
+	Ordinal0 [0x00AB7AD6+948950]
+	GetHandleVerifier [0x00E871F2+2712546]
+	GetHandleVerifier [0x00E7886D+2652765]
+	GetHandleVerifier [0x00C7002A+520730]
+	GetHandleVerifier [0x00C6EE06+516086]
+	Ordinal0 [0x00B8468B+1787531]
+	Ordinal0 [0x00B88E88+1805960]
+	Ordinal0 [0x00B88F75+1806197]
+	Ordinal0 [0x00B91DF1+1842673]
+	BaseThreadInitThunk [0x75A6FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77157A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77157A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220707 01:21:46.564" endtime="20220707 01:23:29.384"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="3" skip="0" id="s1" name="Chico">Chico</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

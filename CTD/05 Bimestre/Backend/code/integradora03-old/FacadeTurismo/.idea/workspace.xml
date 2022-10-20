@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee805df4-a134-456d-8ddc-61c0b3d5f557" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP3-Flyweight/A7S/.idea/A7S.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/02 Exerc CaixaEletronico.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/exemplo_compras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/FacadeSupermercado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/FacadeDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../M1-Design Patterns/DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacadeTurismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/HotelAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/VooAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mesa_trabalho_codigo_base_turismo.zip" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/service/HotelAPI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/service/VooAPI.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D8qz6aOZhMVkjO51oJsIUn19WO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee805df4-a134-456d-8ddc-61c0b3d5f557" name="Changes" comment="" />
+      <created>1660091319653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660091319653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

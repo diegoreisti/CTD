@@ -17,7 +17,7 @@ public class ProductEntity {
 
     @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
     @JoinColumn(name = "category_id")
-    private com.example.CtdCommerceProf.entity.CategoryEntity category;
+    private CategoryEntity category;
 
     public int getId() {
         return id;
@@ -55,11 +55,11 @@ public class ProductEntity {
         this.image = image;
     }
 
-    public com.example.CtdCommerceProf.entity.CategoryEntity getCategory() {
+    public CategoryEntity getCategory() {
         return category;
     }
 
-    public void setCategory(com.example.CtdCommerceProf.entity.CategoryEntity category) {
+    public void setCategory(CategoryEntity category) {
         this.category = category;
     }
 }

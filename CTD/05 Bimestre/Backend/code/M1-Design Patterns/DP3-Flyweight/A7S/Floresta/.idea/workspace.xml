@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb60ce0e-e308-4862-a511-3934bfdf6f6f" name="Changes" comment="Factoty Pattern">
+      <change afterPath="$PROJECT_DIR$/../.idea/A7S.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Floresta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8A - Facade pattern (Fachada)/02 Exerc CaixaEletronico.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8A - Facade pattern (Fachada)/exemplo_compras/exemplo_compras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/FacadeSupermercado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/ApiQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Cartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/FacadeDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DP4-Facade/A8S - Facade pattern (Fachada)/FacadeSupermercado/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/ProjetoFelinos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/src/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10A - Tracing e debug/ProjetoFelinos/src/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/LogCalculos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../M2-Testes Unitários, Logging E Acesso A Dados/A10S - Tracing e debug/LogCalculos/src/CalculosLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03-old/FacadeTurismo/FacadeTurismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/Flyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/FacadeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/FlyweightQuadrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/FlyweightTriangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/Quadrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/out/production/Flyweight/Triangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/FacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/FlyweightQuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/FlyweightTriangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/Flyweight/src/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03/integradora03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/FlyweightRoupas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/src/FacadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/src/FlyweightRoupas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../integradora03new/FlyweightRoupas/src/Roupa.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D5vbKNDi7iULVp6nI5Pcvj5DqS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/dev/Digital-House/CTD/05 Bimestre/Backend/code/integradora03/Flyweight"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb60ce0e-e308-4862-a511-3934bfdf6f6f" name="Changes" comment="" />
+      <created>1660001830971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660001830971</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Factoty Pattern">
+      <created>1660003562923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660003562923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Factoty Pattern">
+      <created>1660003599383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660003599383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Factoty Pattern">
+      <created>1660004012260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660004012260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Factoty Pattern">
+      <created>1660004316958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660004316958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Factoty Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factoty Pattern" />
+  </component>
+</project>
