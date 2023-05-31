@@ -1,0 +1,21 @@
+.quadrado {
+    width: 350px;
+    height: 200px;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    border-radius: 3%;
+}
+
+.textoPequeno {
+    font-size: 14px;
+}
+
+.textoGrande {
+    font-size: 25px;
+    font-weight: bold;
+}
